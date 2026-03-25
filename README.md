@@ -1,6 +1,6 @@
-# 🏦 Bank Account System (Java)
+#  Bank Account System (Java)
 
-## 📌 Overview
+##  Overview
 
 This project is a **menu-driven banking system** implemented in Java using **Object-Oriented Programming (OOP)** concepts such as **abstraction and inheritance**.
 
@@ -8,7 +8,7 @@ The system allows users to perform basic banking operations like deposit, withdr
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Deposit money into account  
 - Withdraw money from account  
@@ -18,7 +18,7 @@ The system allows users to perform basic banking operations like deposit, withdr
 
 ---
 
-## 🧠 Concepts Used
+##  Concepts Used
 
 - Abstract Classes  
 - Inheritance  
@@ -28,7 +28,7 @@ The system allows users to perform basic banking operations like deposit, withdr
 
 ---
 
-## 🏗️ Class Structure
+##  Class Structure
 
 ### 1. `account` (Abstract Class)
 
@@ -43,16 +43,16 @@ Contains common properties and abstract methods.
 - Balance  
 
 **Methods:**
-- `deposit(double amt)`  
-- `withdraw(double amt)`  
-- `transferBank(String newBank, String newIFSC)`  
-- `showDetails()`  
+- deposit(double amt)  
+- withdraw(double amt)
+- transferBank(String newBank, String newIFSC)  
+- showDetails()
 
 ---
 
 ### 2. `Bank` (Derived Class)
 
-Extends the `account` class and implements:
+Extends the account class and implements:
 - Deposit functionality  
 - Withdraw functionality  
 
@@ -61,50 +61,50 @@ Extends the `account` class and implements:
 ### 3. `Main` Class
 
 - Contains the main method  
-- Implements menu-driven logic using `Scanner`  
+- Implements menu-driven logic using Scanner  
 - Handles user interaction  
 
 ---
 
-## 📋 Menu Options
+##  Menu Options
 
-```
+
 1. Deposit
 2. Withdraw
 3. Transfer Bank
 4. Show Details
 5. Exit
-```
+
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 1. Clone the repository:
-```
+
 git clone https://github.com/your-username/bank-account-system.git
-```
+
 
 2. Navigate to the folder:
-```
+
 cd bank-account-system
-```
+
 
 3. Compile the program:
-```
+
 javac Main.java
-```
+
 
 4. Run the program:
-```
+
 java Main
-```
+
 
 ---
 
-## 💻 Sample Output
+##  Sample Output
 
-```
+
 1.Deposit
 2.Withdraw
 3.Transfer Bank
@@ -114,19 +114,19 @@ java Main
 Enter choice: 1
 Enter amount: 1000
 Deposited: 1000
-```
+
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
-- Only one account (`b1`) is actively used  
+- Only one account (b1) is actively used  
 - No validation for negative inputs  
 - No persistent storage  
 
 ---
 
-## 🔧 Future Improvements
+##  Future Improvements
 
 - Add multiple account selection  
 - Implement money transfer between accounts  
@@ -136,9 +136,5 @@ Deposited: 1000
 
 ---
 
-Author
+## Author
 Sharmila Dinesh
-
-## 📄 License
-
-This project is for educational purposes.
